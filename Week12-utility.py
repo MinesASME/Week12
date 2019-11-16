@@ -26,3 +26,12 @@ def FindWordCount(wordList,wordSearch):
         count = count + wordList[i].count(wordSearch)
     return count
 ############################################################################
+def ScoreFinder(playersList,scoreList,name):
+    index = 0;
+    for i in range(0,len(playersList)):
+        if playersList[i].lower() == name.lower():
+            score = scoreList[i]
+            print("OUTPUT %s got a score of %d" %(playersList[i],score))
+            return
+    print("OUTPUT player not found")
+############################################################################
