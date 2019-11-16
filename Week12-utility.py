@@ -46,5 +46,10 @@ def Intersection(list1,list2):
                 intersections.append(list2[j])
     return intersections
 ############################################################################
-
+def NotIn(list1,list2):
+    notin = []
+    for i in range(0,len(list1)):
+        if list1[i] not in list2:
+            notin.append(list1[i])
+    return notin
             
