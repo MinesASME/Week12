@@ -35,3 +35,6 @@ def ScoreFinder(playersList,scoreList,name):
             return
     print("OUTPUT player not found")
 ############################################################################
+def Union(list1,list2):
+    return list1+list2
+############################################################################
