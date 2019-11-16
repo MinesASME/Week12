@@ -3,6 +3,9 @@
 #   ​CSCI 102 – Section B
 #   Week 12 - Part A
 
+I thought I understood how to keep adding files and everything, but I guess not. I don't know how to add the 9 files you asked for,
+but my final product is submitted.
+
 1. I copied my code from the week 10 homework
 2. I used 'with' to open and automatically close the file the user wants to open.
 Then I used a for-loop to parse through the file and store all the lines in a list.
